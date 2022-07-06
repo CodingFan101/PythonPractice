@@ -18,10 +18,10 @@ class Vehicle(Car):
 
 
 dreamCar = Vehicle("Yellow", "Hyundai Elantra")
-print(dreamCar.getColor())
-print(dreamCar.getType())
+print(dreamCar.getColor()) # prints 'Yellow'
+print(dreamCar.getType()) # prints 'Hyundai Elantra'
 dreamCar.setColor("Gray")
 dreamCar.setType("Ford Focus")
-print(dreamCar.getColor())
-print(dreamCar.getType())
-dreamCar.number_of_wheels()
+print(dreamCar.getColor()) # prints 'Gray'
+print(dreamCar.getType()) # prints 'Ford Focus'
+dreamCar.number_of_wheels() # calls 'number_of_wheels' function in Vehicle class
